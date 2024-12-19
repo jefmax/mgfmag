@@ -25,7 +25,7 @@
           width="200px"
         />
         <div class="right">
-          <div class="idioma">EN | ES</div>
+          <!-- <div class="idioma">EN | ES</div> -->
           <div>
             <ul class="nav-lis">
               <li><a href="#about">About us</a></li>
@@ -62,98 +62,26 @@
           This is a standout feature from our past three editions.
         </p>
       </section>
-      <main class="grid-container">
-        <div class="image-container">
-          <img src="images/grid-container/img1.png" alt="Imagen 1" />
-          <h3>Jorge Alderete</h3>
-          <p>Los Fabulosos Cadillacs Cover</p>
+
+      <div class="grid-container">
+        <!-- Aquí se cargarán las imágenes dinámicamente desde el JSON -->
+      </div>
+
+      <!-- Modal -->
+      <div id="imageModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <div class="modal-body">
+            <img id="modalImage" src="" alt="Imagen Modal" />
+            <div class="modal-text">
+              <h2 id="modalTitle"></h2>
+              <p id="modalDescription"></p>
+              <p id="modalFooter"></p>
+            </div>
+          </div>
         </div>
-        <div class="image-container">
-          <img src="images/grid-container/img2.png" alt="Imagen 1" />
-          <h3>Lanzamiento</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img3.png" alt="Imagen 1" />
-          <h3>Marta</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img4.png" alt="Imagen 1" />
-          <h3>M79</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img5.png" alt="Imagen 1" />
-          <h3>Victor</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img6.png" alt="Imagen 1" />
-          <h3>Megáfono</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img7.png" alt="Imagen 1" />
-          <h3>Leo</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img8.png" alt="Imagen 1" />
-          <h3>Roboto</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img9.png" alt="Imagen 1" />
-          <h3>Charuca</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img10.png" alt="Imagen 1" />
-          <h3>Alejandro</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img11.png" alt="Imagen 1" />
-          <h3>Andrés Ariza</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img12.png" alt="Imagen 1" />
-          <h3>Plukart</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img13.png" alt="Imagen 1" />
-          <h3>Makita</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img14.png" alt="Imagen 1" />
-          <h3>Leo P</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img15.png" alt="Imagen 1" />
-          <h3>Edwin</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img16.png" alt="Imagen 1" />
-          <h3>Charlie Rivas</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img17.png" alt="Imagen 1" />
-          <h3>Samuel</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="image-container">
-          <img src="images/grid-container/img18.png" alt="Imagen 1" />
-          <h3>Felipe</h3>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-      </main>
+      </div>
+
       <section>
         <p class="lead-small2">
           Back to Top
@@ -176,8 +104,8 @@
     </div>
     <footer>
       <div class="footer-logo">
-        <img src="images/mgfcol.png" alt="mgfcol" />
-        <img src="images/mgfmag2.png" alt="mgfmag" />
+        <img class="color-change-image" src="images/mgfcol.png" alt="mgfcol" />
+        <img class="color-change-image" src="images/mgfmag2.png" alt="mgfmag" />
       </div>
       <ul class="footer-social">
         <li>
@@ -191,5 +119,6 @@
         </li>
       </ul>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
