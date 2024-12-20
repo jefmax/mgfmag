@@ -299,7 +299,6 @@ footer {
   }
   .header-container img {
     width: 100%;
-    /* padding: 40px 0; */
   }
 }
 
@@ -411,8 +410,6 @@ footer {
     width: 100%; /* El footer ocupará todo el ancho disponible */
     margin-top: 20px; /* Ajustar el margen para que no quede demasiado alejado */
     text-align: center; /* Centrar el texto del pie de página */
-  }
-  .image-banner {
   }
 }
 
