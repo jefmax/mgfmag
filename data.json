@@ -4,109 +4,181 @@
       "src": "images/grid-container/img_01.png",
       "title": "Dr Alderete",
       "description": "Dr. Jorge Alderete, commonly known as Dr. Alderete, is a renowned Argentine illustrator, designer, and visual artist whose bold, vibrant style has cemented him as a leading figure in contemporary graphic design and illustration. Born in Patagonia, Argentina, Alderete’s work is characterized by its dynamic blend of retro aesthetics, pop culture influences, and Mexican visual traditions, reflecting his deep connection to Latin American identity.",
-      "footer": "jorgealderete.com\nArgentina - México"
+      "footer": "Argentina - México",
+      "social": {
+        "website": "https://jorgealderete.com/",
+        "instagram": "https://www.instagram.com/dralderete/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_02.png",
       "title": "Leo Espinosa",
       "description": "Leo Espinosa is an award-winning illustrator and designer from Bogotá, Colombia, whose work has appeared in publications like The New Yorker and The New York Times, as well as in animated series and gallery exhibitions. Recognized by The Society of Illustrators and American Illustration, he received the Pura Belpré Honor Book Award in 2019 for Islandborn, written by Pulitzer Prize-winner Junot Díaz. When not illustrating, Leo enjoys cycling in the mountains near Salt Lake City, where he lives with his wife.",
-      "footer": "studioespinosa.com\nBogotá - Colombia"
+      "footer": "Bogotá - Colombia",
+      "social": {
+        "website": "https://studioespinosa.com/",
+        "instagram": "https://www.instagram.com/studioespinosaworks/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_03.png",
       "title": "Hellofreaks",
       "description": "Hellofreaks is a dynamic graphic design studio based in Lille, France, led by talented graphic designer and illustrator Jérôme Castro. Known for its bold and captivating style, the studio specializes in illustration, motion graphics, music videos, TV idents, and logotypes. Hellofreaks' work has made waves internationally, gracing the pages of prestigious magazines, renowned design books, sold-out festivals, and exhibitions across the globe, from Brazil and Singapore to Taiwan, London, Paris, and Toulouse.",
-      "footer": "hellofreaks.com\nParis France"
+      "footer": "Paris - France",
+      "social": {
+        "website": "https://www.hellofreaks.com/",
+        "behance": "https://www.behance.net/Hellofreaks"
+      }
     },
     {
       "src": "images/grid-container/img_04.png",
       "title": "Marta Cerda",
       "description": "Marta Cerdà Alimbau blends functional beauty and emotion, creating distinctive designs that bridge typography and illustration. Embracing an eclectic style, she challenges the separation of these disciplines as a creative limitation. Since 2008, Marta has worked globally on art direction, design, illustration, and custom typography for clients in the arts, culture, and advertising industries.",
-      "footer": "martacerda.com\nBarcelona - Spain"
+      "footer": "Barcelona - Spain",
+      "social": {
+        "website": "https://martacerda.com/",
+        "instagram": "https://www.instagram.com/martacerda/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_05.png",
       "title": "Charuca",
       "description": "Charuca Vargas is a renowned Spanish artist and designer celebrated for her charming and playful vinyl toys that have captured hearts worldwide. With a background in graphic design and illustration, Charuca blends her love for kawaii aesthetics and pop culture to create endearing characters full of personality. Her signature style combines clean lines, vibrant colors, and an irresistible sense of joy, making her work instantly recognizable.",
-      "footer": "charuca.com\nBarcelona - Spain"
+      "footer": "Barcelona - Spain",
+      "social": {
+        "website": "https://www.flickr.com/photos/charuca/",
+        "instagram": "https://www.instagram.com/charuca/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_06.png",
       "title": "Wonksite",
       "description": "As Wonksite, Jorge Restrepo has earned a reputation for pushing creative boundaries across editorial design, branding, and collaborations in street art and digital art. His work, recognized in global exhibitions and collaborations with top brands, blends vibrant aesthetics with conceptual depth. Jorge's unique vision has made him a standout figure in the Latin American creative community, where art, design, and culture converge.",
-      "footer": "@jorgerestrepodesigner\nBogotá - Colombia"
+      "footer": "Bogotá - Colombia",
+      "social": {
+        "website": "https://www.ph3estudio.com/index.html",
+        "instagram": "https://www.instagram.com/jorgerestrepodesigner/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_07.png",
-      "title": "Iconblast",
-      "description": "Vic Deal A.K.A. Iconblast is a graphic designer, rapper, and producer from Turbo, Antioquia, currently based in Medellín. He is the co-founder of the Afterclass label, a key collective in the scene, formed alongside Luis7Lunes, Maco Maat, and El Gala. In rap, he made his debut with Uno, Dos (2012), followed by 1986 (2014), works that began to shape his artistic identity. With De Ego Tripas (2017), Vic Deal took a significant leap in quality as both a rapper and beatmaker, solidifying himself as one of the leading names in Medellín's rap scene.",
-      "footer": "@iconblast.studio\nMedellin - Colombia"
+      "title": "Alejo Ortiz",
+      "description": "From Bogotá, Colombia, this parcero now navigates the vibrant streets of Dubai, taking his passion for art direction to the next level at Leo Burnett Dubai, one of the world's most prestigious design agencies. With a style that blends creativity, culture, and technique, his work showcases maturity and precision in every digital stroke. It’s clear proof that Colombia is overflowing with talent—talent that’s conquering global stages and leaving its mark around the world, showing that Latin creativity knows no boundaries.",
+      "footer": "Bogotá - Colombia",
+      "social": {
+        "website": "https://alejandroortiz.work/",
+        "instagram": "https://www.instagram.com/ortizbu/"
+      }
     },
     {
       "src": "images/grid-container/img_08.png",
-      "title": "Alejo Ortiz",
-      "description": "From Bogotá, Colombia, this parcero now navigates the vibrant streets of Dubai, taking his passion for art direction to the next level at Leo Burnett Dubai, one of the world's most prestigious design agencies. With a style that blends creativity, culture, and technique, his work showcases maturity and precision in every digital stroke. It’s clear proof that Colombia is overflowing with talent—talent that’s conquering global stages and leaving its mark around the world, showing that Latin creativity knows no boundaries.",
-      "footer": "alejandroortiz.work\nBogotá - Colombia"
+      "title": "Iconblast",
+      "description": "Vic Deal A.K.A. Iconblast is a graphic designer, rapper, and producer from Turbo, Antioquia, currently based in Medellín. He is the co-founder of the Afterclass label, a key collective in the scene, formed alongside Luis7Lunes, Maco Maat, and El Gala. In rap, he made his debut with Uno, Dos (2012), followed by 1986 (2014), works that began to shape his artistic identity. With De Ego Tripas (2017), Vic Deal took a significant leap in quality as both a rapper and beatmaker, solidifying himself as one of the leading names in Medellín's rap scene.",
+      "footer": "Medellin - Colombia",
+      "social": {
+        "youtube": "https://www.youtube.com/@AfterclassRecords",
+        "instagram": "https://www.instagram.com/iconblast.studio/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_09.png",
       "title": "Mr. Roboto",
       "description": "A friend of the Megáfono family, Mr. Roboto, is Julián Henao, a key member of the renowned Medellín-based agency Estudio Agite. Dedicated to creative communication, the studio specializes in art direction, illustration, animation, editorial design, infographics, museography, and craft. Their work is driven by solid conceptualization, resulting in pieces that are both emotional and timeless, resonating deeply with audiences.",
-      "footer": "\"Cuadernos Scribe\" Characters\nagite.co"
+      "footer": "Medellin - Colombia",
+      "social": {
+        "website": "https://agite.co/",
+        "instagram": "https://www.instagram.com/senorroboto/"
+      }
     },
     {
       "src": "images/grid-container/img_10.png",
       "title": "V.1 Launching Event",
       "description": "On November 11th, 2009, the gallery of the Alliance Française in Barranquilla transformed into a vibrant hub of art, design, and cultural dialogue as we celebrated the long-awaited launch of Megáfono Magazine. The evening united creators, dreamers, and visionaries, with special guest Mr. Roboro from the intervention art collective Ninja Pingüino/Agite, who captivated us with bold and thought-provoking work. Thanks to all for being part of a dream made reality.",
-      "footer": "Megáfono Magazine\nmgfmag.com"
+      "footer": "Barranquilla - Colombia",
+      "social": {
+        "website": "https://mgfmag.com/",
+        "instagram": "https://www.instagram.com/megafonomagazine/"
+      }
     },
     {
       "src": "images/grid-container/img_11.png",
       "title": "Mr. Ed",
       "description": "A friend of the Megáfono family, Mr. Roboto, is Julián Henao, a key member of the renowned Medellín-based agency Estudio Agite. Dedicated to creative communication, the studio specializes in art direction, illustration, animation, editorial design, infographics, museography, and craft. Their work is driven by solid conceptualization, resulting in pieces that are both emotional and timeless, resonating deeply with audiences.",
-      "footer": "\"Cuadernos Scribe\" Characters\nagite.co"
+      "footer": "Barranquilla - Colombia",
+      "social": {
+        "behance": "https://www.behance.net/esmcreativo",
+        "instagram": "https://www.instagram.com/dralderete/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_12.png",
       "title": "Chato",
       "description": "A Caleño with a Barranquillero soul, but from the heights of the mountains, he brings life to letters that sing, monsters that speak, and colors that flow across every format imaginable. He draws what he believes and believes in what he draws. His work has caught the eye of major international sports like Nike Portland, turning his characters into true icons of street art, where creativity meets style and leaves its mark in bold, unforgettable ways.",
-      "footer": "@chatopress\nCali - Colombia"
+      "footer": "Cali - Colombia",
+      "social": {
+        "behance": "https://www.behance.net/chato",
+        "instagram": "https://www.instagram.com/chatopres/"
+      }
     },
     {
       "src": "images/grid-container/img_13.png",
       "title": "Leonardo Peña",
       "description": "An authentic gladiator of the visual arts, a university professor, and a passionate fanzine maker, Leonardo is the creator of the Propaganda Visual Arts Festival, a space that celebrates street art, experimental graphic design, and the best beats all in one place. His talent and vision have led him to collaborate on projects like the “Instituto Bogotano de Corte”, leaving his mark on the design scene. Today, we are proud to say that Leonardo is also part of the mgfmag family.",
-      "footer": "Yeah Yeah Yeah La La La 2010\nmartacerda.com "
+      "footer": "Bogotá - Colombia",
+      "social": {
+        "website": "",
+        "instagram": "https://www.instagram.com/propaganda_v.o.15/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_14.png",
       "title": "Manifiesto79",
       "description": "Julián Cardozo A.K.A. Manifiesto79 is a Colombian graphic designer known for his bold visual style and international impact. A graduate of Bellas Artes in Cali with a postgraduate degree in Typography from ELISAVA in Barcelona, he has worked with agencies like Young & Rubicam, Ogilvy & Mather, and Vasava Artworks. His work has been featured in major publications like Latin American Graphic Design and Logo Design Volume 2. Passionate about Street Art, He continues to blend urban culture with impactful design.",
-      "footer": "manifiesto79.com\nCali - Colombia"
+      "footer": "Cali - Colombia",
+      "social": {
+        "behance": "https://www.behance.net/manifiesto79",
+        "instagram": "https://www.instagram.com/manifiesto79/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_15.png",
       "title": "Andres Ariza",
       "description": "Among the standout winners of mgfmag's first local call, Andrés Ariza may appear to be like any other illustrator— a devoted fan of movies, video games, and blessed with remarkable artistic talent. However, what truly sets him apart is his bold, passionate alter ego: Maquinita—a creative force bursting with energy, vitality, and an unstoppable drive that elevates his work to extraordinary heights.",
-      "footer": "www.behance.net/maquinita\nBarranquilla - Colombia"
+      "footer": "Barranquilla - Colombia",
+      "social": {
+        "website": "https://www.andrewariza.com/",
+        "instagram": "https://www.instagram.com/andrew_ariza/reels/"
+      }
     },
     {
       "src": "images/grid-container/img_16.png",
       "title": "Dr. Makila",
       "description": "The protest rifle, which as you can see in this image was in Rome and left its mark on the heart of religious and political power of an empire that ruled the world for a long time, Dr. Makila is part of that collective of Caleños artists who were invited to Trimarchi in Argentina long time ago.",
-      "footer": "ruda.ws\nCali - Colombia"
+      "footer": "Cali - Colombia",
+      "social": {
+        "website": "https://ruda.ws/",
+        "instagram": "https://www.instagram.com/fuzil_dr.makila/"
+      }
     },
     {
       "src": "images/grid-container/img_17.png",
       "title": "Plukart",
       "description": "Jim Pluk is an illustrator, author, and muralist from Colombia. With a career spanning over 20 years, he has created a wide range of publications, including comics for adults, young adults, and children. His work has been featured in picture books and comics, published by both Colombian and international publishers. Jim’s artistic journey has led him to hold solo exhibitions across the globe, from Argentina and Spain to France, Germany, Mexico, Italy, and of course, his home country, Colombia.",
-      "footer": "plukart777.blogspot.com\nBogotá - Colombia"
+      "footer": "Bogotá - Colombia",
+      "social": {
+        "website": "https://plukart777.blogspot.com/",
+        "instagram": "https://www.instagram.com/jimpluk/?hl=en"
+      }
     },
     {
       "src": "images/grid-container/img_18.png",
       "title": "Samuel Castaño",
       "description": "Samuel is an illustrator and graphic designer with a deep passion for drawing, collage, and visual storytelling. His work seamlessly blends creativity and narrative, bringing characters and worlds to life through unique compositions and expressive detail. Samuel has contributed as both an illustrator and author to children's literature and picture book projects, collaborating with renowned publishing houses to create works that captivate young audiences and inspire imagination.",
-      "footer": "samcastano.cargo.site\nMedellin - Colombia"
+      "footer": "Medellin - Colombia",
+      "social": {
+        "behance": "https://www.behance.net/samuelcastano",
+        "instagram": "https://www.instagram.com/samcastano/?hl=en"
+      }
     }
   ]
 }

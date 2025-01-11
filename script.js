@@ -1,44 +1,99 @@
-// Función para abrir el modal
+// function modal
 function openModal(index) {
   fetch("data.json")
     .then((response) => response.json())
     .then((data) => {
-      const imageData = data.imageData[index]; // Obtener la información de la imagen seleccionada
-      document.getElementById("modalImage").src = imageData.src; // Establecer la imagen en el modal
-      document.getElementById("modalTitle").innerText = imageData.title; // Título de la imagen
+      const imageData = data.imageData[index]; // get info image
+      document.getElementById("modalImage").src = imageData.src; // img modal
+      document.getElementById("modalTitle").innerText = imageData.title;
       document.getElementById("modalDescription").innerText =
-        imageData.description; // Descripción
-      document.getElementById("modalFooter").innerText = imageData.footer; // Pie de página
+        imageData.description;
+      document.getElementById("modalFooter").innerText = imageData.footer;
 
-      // Mostrar el modal
+      // Create the icons for the website and Instagram.
+      const socialContainer = document.getElementById("modalSocial");
+      socialContainer.innerHTML = ""; // Limpia contenido previo
+
+      // Website icon
+      if (imageData.social && imageData.social.website) {
+        const listItem = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = imageData.social.website;
+        link.target = "_blank";
+        const icon = document.createElement("i");
+        icon.className = "fa-solid fa-globe";
+        link.appendChild(icon);
+        listItem.appendChild(link);
+        socialContainer.appendChild(listItem);
+      }
+
+      // Instagram icon
+      if (imageData.social && imageData.social.instagram) {
+        const listItem = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = imageData.social.instagram;
+        link.target = "_blank";
+        const icon = document.createElement("i");
+        icon.className = "fab fa-instagram";
+        link.appendChild(icon);
+        listItem.appendChild(link);
+        socialContainer.appendChild(listItem);
+      }
+
+      // Behance icon
+      if (imageData.social && imageData.social.behance) {
+        const listItem = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = imageData.social.behance;
+        link.target = "_blank";
+        const icon = document.createElement("i");
+        icon.className = "fab fa-behance";
+        link.appendChild(icon);
+        listItem.appendChild(link);
+        socialContainer.appendChild(listItem);
+      }
+
+      // Youtube icon
+      if (imageData.social && imageData.social.youtube) {
+        const listItem = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = imageData.social.youtube;
+        link.target = "_blank";
+        const icon = document.createElement("i");
+        icon.className = "fab fa-youtube";
+        link.appendChild(icon);
+        listItem.appendChild(link);
+        socialContainer.appendChild(listItem);
+      }
+
+      // show modal
       document.getElementById("imageModal").style.display = "block";
     })
     .catch((error) => console.error("Error al cargar el archivo JSON:", error));
 }
 
-// Función para cerrar el modal
+// close modal
 function closeModal() {
   document.getElementById("imageModal").style.display = "none";
 }
 
-// Cerrar el modal al hacer clic fuera del área del modal
+// other close modal
 document
   .getElementById("imageModal")
   .addEventListener("click", function (event) {
-    // Si el clic ocurre fuera del contenido del modal, cerramos el modal
     if (event.target === document.getElementById("imageModal")) {
       closeModal();
     }
   });
 
-// Cerrar el modal al presionar la tecla Escape
+// other close modal Esc
 document.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
     closeModal();
   }
 });
 
-// Función para cargar las imágenes en la galería desde el JSON
+// loads JSON images
 document.addEventListener("DOMContentLoaded", function () {
   fetch("data.json")
     .then((response) => response.json())
@@ -51,6 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const img = document.createElement("img");
         img.src = item.src;
         img.alt = item.title;
+        img.setAttribute("onclick", `openModal(${index})`);
 
         const infoText = document.createElement("div");
         infoText.classList.add("info-text");

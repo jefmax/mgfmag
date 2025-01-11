@@ -12,29 +12,28 @@
     ></script>
     <title>mgfmag</title>
   </head>
+
   <body>
     <div class="header-container">
-      <img class="group-color" src="images/group.svg" alt="rectangle" />
+      <img class="group-color" src="images/Group 12.svg" alt="rectangle" />
     </div>
 
     <div class="container">
       <nav class="navbar">
-        <a href="index.html">
-          <img
-            src="https://www.mgfmag.com/images/logo.svg"
-            alt="image-logo-mgfmag"
-            width="200px"
-          />
-        </a>
-
+        <img
+          src="https://www.mgfmag.com/images/logo.svg"
+          alt="image-logo-mgfmag"
+          width="200px"
+        />
         <div class="right">
-          <!-- <div class="idioma">EN | ES</div> -->
           <div>
             <ul class="nav-lis">
               <li><a href="about.html">About us</a></li>
               <li>|</li>
               <li>
-                <a arial-label="Facebook" href="#"
+                <a
+                  arial-label="Facebook"
+                  href="https://www.facebook.com/profile.php?id=61570909708407"
                   ><i id="#" class="fab fa-facebook-f"></i
                 ></a>
               </li>
@@ -46,7 +45,7 @@
                 ></a>
               </li>
               <li>
-                <a arial-label="Mail" href="#"
+                <a arial-label="Mail" href="mailto:info@mgfmag.com"
                   ><i class="fa-regular fa-envelope"></i
                 ></a>
               </li>
@@ -67,10 +66,10 @@
       </section>
 
       <div class="grid-container">
-        <!-- Aquí se cargarán las imágenes dinámicamente desde el JSON -->
+        <!-- Here the images will be loaded dynamically from the JSON -->
       </div>
 
-      <!-- Modal -->
+      <!-- Modal   -->
       <div id="imageModal" class="modal">
         <div class="modal-content">
           <span class="close" onclick="closeModal()">&times;</span>
@@ -80,6 +79,7 @@
               <h2 id="modalTitle"></h2>
               <p id="modalDescription"></p>
               <p id="modalFooter"></p>
+              <ul id="modalSocial" class="social-links"></ul>
             </div>
           </div>
         </div>
@@ -87,11 +87,11 @@
 
       <section>
         <p class="lead-small2">
-          Back to Top
-          <a href="#"
-            ><span><i class="fas fa-arrow-up"></i></span
-          ></a>
+          <a href="#">
+            <span>Back to Top&nbsp;<i class="fas fa-arrow-up"></i></span>
+          </a>
         </p>
+            
       </section>
       <div class="info">
         <p class="one">
@@ -112,13 +112,19 @@
       </div>
       <ul class="footer-social">
         <li>
-          <a href="#"><i id="icon-social" class="fab fa-facebook-f"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61570909708407"
+            ><i id="icon-social" class="fab fa-facebook-f"></i
+          ></a>
         </li>
         <li>
-          <a href="#"><i id="icon-social" class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/megafonomagazine/?hl=en"
+            ><i id="icon-social" class="fab fa-instagram"></i
+          ></a>
         </li>
         <li>
-          <a href="#"><i class="fa-regular fa-envelope"></i></a>
+          <a href="mailto:info@mgfmag.com"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
         </li>
       </ul>
     </footer>

@@ -125,7 +125,7 @@ section .lead-small2 a {
   background-color: #a7f797;
   opacity: 0;
   transition: opacity 0.3s ease;
-  pointer-events: none; /* asegura que no bloquee los elementos */
+  pointer-events: none;
 }
 
 .image-container:hover .info-text {
@@ -166,7 +166,7 @@ section .lead-small2 a {
   opacity: 1;
 }
 
-/* Estilos del modal */
+/* modal style */
 .modal {
   display: none;
   position: fixed;
@@ -220,7 +220,7 @@ section .lead-small2 a {
 }
 #modalFooter {
   margin-top: 40px;
-  width: 150px;
+  width: fit-content;
   font-size: 16px;
 }
 #modalTitle {
@@ -228,7 +228,7 @@ section .lead-small2 a {
   margin-bottom: 8px;
 }
 
-/* Estilo para el icono de cerrar */
+/* icono close */
 .close {
   color: #aaa;
   font-size: 28px;
@@ -281,9 +281,26 @@ footer {
   color: var(--greenmgf);
 }
 
+.social-links {
+  list-style: none;
+  padding: 6px 0;
+  display: flex;
+  gap: 12px;
+}
+.social-links li {
+  display: inline-block;
+}
+.social-links a {
+  text-decoration: none;
+  color: var(--navymgf);
+  transition: color 0.3s;
+}
+.social-links a:hover {
+  color: #123e80;
+}
+
 .image-banner {
   width: 100%;
-  /* max-height: 475px; */
   padding: 40px 0;
 }
 
@@ -361,7 +378,6 @@ footer {
   }
   .footer-logo {
     display: flex;
-    /* flex-direction: column; */
   }
 
   .footer-logo img {
@@ -370,46 +386,52 @@ footer {
     margin: 0 auto;
   }
   .modal-content {
-    width: 95%; /* Modal más pequeño en pantallas pequeñas */
-    height: auto; /* Hacer que la altura se ajuste según el contenido */
-    flex-direction: column; /* Cambiar el diseño de flex a columna */
+    width: 95%;
+    height: auto;
+    flex-direction: column;
     padding: 20px;
+  }
+  .social-links {
+    display: block;
+  }
+  .social-links li {
+    margin: 0 6px;
   }
 
   .modal-body {
-    width: 100%; /* Hacer que el cuerpo del modal ocupe todo el ancho */
-    flex-direction: column; /* Apilar los elementos verticalmente */
-    align-items: center; /* Centrar los elementos */
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
 
   .modal img {
-    width: 100%; /* Hacer que la imagen ocupe el 100% del ancho */
-    height: auto; /* Mantener la proporción de la imagen */
+    width: 100%;
+    height: auto;
     padding: 0;
-    margin-bottom: 20px; /* Separar la imagen de los textos */
+    margin-bottom: 20px;
   }
 
   .modal-text {
-    width: 100%; /* Asegurar que el texto ocupe todo el ancho disponible */
-    margin: 0; /* Eliminar el margen para que se ajuste bien */
-    padding: 0; /* Eliminar padding innecesario */
-    text-align: center; /* Centrar el texto */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
 
   .modal-text h2 {
-    font-size: 24px; /* Reducir el tamaño del título en pantallas pequeñas */
+    font-size: 24px;
     margin-bottom: 10px;
   }
 
   .modal-text p {
-    font-size: 14px; /* Mantener el tamaño del texto de la descripción */
+    font-size: 14px;
     margin-bottom: 10px;
   }
 
   #modalFooter {
-    width: 100%; /* El footer ocupará todo el ancho disponible */
-    margin-top: 20px; /* Ajustar el margen para que no quede demasiado alejado */
-    text-align: center; /* Centrar el texto del pie de página */
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
   }
 }
 
